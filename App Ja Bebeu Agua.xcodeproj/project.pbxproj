@@ -16,6 +16,8 @@
 		577BC3A7270F64840020CB2A /* App_Ja_Bebeu_AguaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577BC3A6270F64840020CB2A /* App_Ja_Bebeu_AguaTests.swift */; };
 		577BC3B1270F64840020CB2A /* App_Ja_Bebeu_AguaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577BC3B0270F64840020CB2A /* App_Ja_Bebeu_AguaUITests.swift */; };
 		577BC3B3270F64840020CB2A /* App_Ja_Bebeu_AguaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577BC3B2270F64840020CB2A /* App_Ja_Bebeu_AguaUITestsLaunchTests.swift */; };
+		577BC402271076280020CB2A /* Unidade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577BC401271076280020CB2A /* Unidade.swift */; };
+		577BC4042710983C0020CB2A /* Cor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577BC4032710983C0020CB2A /* Cor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		577BC3AC270F64840020CB2A /* App Ja Bebeu AguaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App Ja Bebeu AguaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		577BC3B0270F64840020CB2A /* App_Ja_Bebeu_AguaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_Ja_Bebeu_AguaUITests.swift; sourceTree = "<group>"; };
 		577BC3B2270F64840020CB2A /* App_Ja_Bebeu_AguaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_Ja_Bebeu_AguaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		577BC401271076280020CB2A /* Unidade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unidade.swift; sourceTree = "<group>"; };
+		577BC4032710983C0020CB2A /* Cor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				577BC38F270F64810020CB2A /* AppDelegate.swift */,
+				577BC4032710983C0020CB2A /* Cor.swift */,
 				577BC391270F64810020CB2A /* SceneDelegate.swift */,
 				577BC393270F64810020CB2A /* ViewController.swift */,
+				577BC401271076280020CB2A /* Unidade.swift */,
 				577BC395270F64810020CB2A /* Main.storyboard */,
 				577BC398270F64840020CB2A /* Assets.xcassets */,
 				577BC39A270F64840020CB2A /* LaunchScreen.storyboard */,
@@ -259,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				577BC394270F64810020CB2A /* ViewController.swift in Sources */,
+				577BC4042710983C0020CB2A /* Cor.swift in Sources */,
 				577BC390270F64810020CB2A /* AppDelegate.swift in Sources */,
+				577BC402271076280020CB2A /* Unidade.swift in Sources */,
 				577BC392270F64810020CB2A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,7 +464,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -484,7 +492,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
